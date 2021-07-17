@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    interface ICarFactory
+    public interface ICarFactory
     {
         IEngine CreateEnginer();
         ISteeringWheel CreateSteeringWheel();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.CarParts
 {
-    interface IWheel
+    public interface IWheel
     {
         void PrintDiameter();
         void PrintTireType();

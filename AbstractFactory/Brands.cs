@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory.CarParts
+namespace AbstractFactory
 {
-    public interface IEngine
+    enum Brands
     {
-        void PrintPower();
-        void PrintCylinderNumber();
+        BMW,
+        Ford
     }
 }
